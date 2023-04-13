@@ -1,0 +1,43 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background: #141414;
+
+    font-size: 10px;
+}
+
+.Logo {
+    font-size: 10px;
+    font-weight: bold;
+}
+.Input_Search {
+    width: 700px;
+    border: 2px solid  #3a3a3a;
+    border-radius: 50px;
+    height: 45px;
+    align-items: center;
+}
+.Input_Search input {
+    background: transparent;    
+    border: none;    
+    outline: none;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    width: 700px;
+    margin: 0 19px;
+}
+.Input_Search:focus-within {
+    border: 2px solid rgb(0, 98, 255);
+  }
+  
+.Profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: white;
+}

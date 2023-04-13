@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background: #141414;
+  color: white;
+  font-family: inter, Arial, Helvetica, sans-serif;
+  display: grid;
+  overflow-x: hidden;
+}
+
+.Layout {
+  padding: 70px 0;
+  display: flex;
+}

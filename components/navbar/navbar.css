@@ -1,0 +1,95 @@
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    width: 300px;
+    position: fixed;
+    background: #141414;
+    overflow-y: scroll;
+    max-height: 150vh;
+    height: 100vh;
+    font-size: 1.5vw;
+  }
+  
+
+  .Navbar::-webkit-scrollbar {
+    background: transparent;
+    height: 10px;
+    border-radius: 50px;
+    width: 5px;
+  }
+  .Navbar::-webkit-scrollbar-thumb {
+    background: #343434;
+    height: 10px;
+    border-radius: 50px;
+
+  }
+
+.Navigation {
+    width: 100%;
+}
+
+.Navigation h1 {
+    font-weight: 300;
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    
+}
+
+.Navigation h1:hover {
+    background: #242424;
+    color: white;
+    border-radius: 7px;
+}
+
+.Navigation hr {
+    border: 0.4px solid rgb(90, 90, 90);
+}
+
+h1.HasPage {
+    background: #343434;
+    color: white;
+    border-radius: 7px;
+}
+
+h1.HasPage:hover {
+    background: #434343;
+    color: white;
+    border-radius: 7px;
+}
+
+.Inscricoes h2 {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 10px;
+    margin: 5px 0;
+}
+
+.canal {
+    display: flex;
+    align-items: center;
+}
+
+.canal::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background: rgba(147, 147, 147, 0.902);
+    display: flex;
+    align-items: center;
+    margin: 0 15px 0 0;
+}
+h1.HasVideo::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    display: flex;
+    background: rgb(0, 119, 255);
+    border-radius: 5px;
+    margin: 0 0 0 20px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

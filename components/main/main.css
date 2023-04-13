@@ -1,0 +1,59 @@
+.Main {
+    margin: 10px 350px ;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.video {
+    height: 100px;
+    width: 250px;
+    cursor: pointer;
+    margin: 50px 10px 100px 0;
+    padding: 10px;
+}
+
+.Thumb {
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    background: rgb(65, 65, 65);
+    transition: 0.2s 0.2s ease-in-out;
+}
+
+.video:hover .Thumb {
+    border-radius: 0;
+}
+
+.video h1 {
+    font-size: 20px;
+}
+
+.Desc {
+    padding: 10px 0;
+}
+
+.Description {
+    display: flex;
+}
+
+.ProfileThumb {
+    width: 30px;
+    height: 30px;
+    background: grey;
+    display: flex;
+    border-radius: 50px;
+    margin: 10px 10px 0 0;
+}
+
+.DescAbout  {
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.DescAbout p {
+    color: grey;
+}
